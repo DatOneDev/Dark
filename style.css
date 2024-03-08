@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+html{
+  /* background-image: linear-gradient(#131316, #170024); */
+  background-image: linear-gradient(#170024, #131316);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+nav{
+  width:100%;
+  position:fixed;
+  z-index: 1;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  margin:30px;
+  justify-content: space-between !important;
+  background-color:rgb(34 34 39);
+  padding:10px;
+  margin-left: 390px;
+  margin-right:390px;
+  border-radius:40px;
+  /* border: 3px solid #610094; */
+  overflow:hidden;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+ul a{
+  /* margin-right:60px; */
+  justify-content: right;
+}
+ul img{
+  justify-content: left;
+  color:white;
+  margin-left:66px;
+}
+
+.end{
+  margin-left: 120px;
+}
+
+.okman{
+  margin-right:65px;
+}
+
+li{
+  list-style: none;
+  /* margin-right:15px;
+  margin-left:15px; */
+}
+
+a{
+  text-decoration: none;
+  color:white;
+}
+
+a:hover{
+  text-decoration: underline;
+  transition-duration: 1s;
+}
+
+.btn{
+  color: #610094;
+}
+
+.cover{
+  width: 90%; 
+  height: calc(100vh - 90px); 
+  object-fit: cover;
+  position: absolute;
+  top: 80px;
+  border-radius: 10px;
+}
+
+.container{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* banner rules */
+
+.banner{
+  color: white;
+  margin-top: 8%;
+  padding-top:30vh;
+  background-image: linear-gradient(90deg, #100019 0%, #200033 35%, #26003d 100%);
+  padding-bottom:30vh;
+  border-radius:15px;
+} 
+
+.banner img{
+  display:flex;
+  flex-direction: row;
+}
+
+.text{
+  margin-right:90vh;
+  margin-left:10vh;
+}
+
+.subtext{
+  margin-top: 10px;
+  font-size: 20px;
+  width:90vh;
+}
+
+.leadoff{
+  padding:10px;
+  border:3px solid white;
+  margin-left:6%;
+  box-sizing: border-box;
+  margin-top:20px;
+}
+
+.spacer{
+  margin-top:30px;
+}
+
+.margin10{
+  margin:10px;
+}
